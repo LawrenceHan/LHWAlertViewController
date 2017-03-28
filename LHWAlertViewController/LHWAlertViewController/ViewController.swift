@@ -13,7 +13,23 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        let button: UIButton = UIButton(type: .system)
+        button.setTitle("Show Alert", for: .normal)
+        button.frame = CGRect(x: 100, y: 200, width: 100, height: 44)
+        button.addTarget(self, action: #selector(showAlert), for: .touchUpInside)
+        view.addSubview(button)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+    func showAlert(_ sender: UIButton) {
         let alert = LHWAlertViewController.alertController(
             title: "Title",
             message: "Message",
@@ -31,12 +47,6 @@ class ViewController: UIViewController {
         
         self.present(alert, animated: true, completion: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 

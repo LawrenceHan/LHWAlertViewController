@@ -7,24 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0264536C1E8A4216004AD1F1 /* LHWAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026453621E8A4216004AD1F1 /* LHWAlertAction.swift */; };
+		0264536D1E8A4216004AD1F1 /* LHWAlertActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026453631E8A4216004AD1F1 /* LHWAlertActionTableViewCell.swift */; };
+		0264536E1E8A4216004AD1F1 /* LHWAlertActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 026453641E8A4216004AD1F1 /* LHWAlertActionTableViewCell.xib */; };
+		0264536F1E8A4216004AD1F1 /* LHWAlertTitleSubtitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026453651E8A4216004AD1F1 /* LHWAlertTitleSubtitleTableViewCell.swift */; };
+		026453701E8A4216004AD1F1 /* LHWAlertTitleSubtitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 026453661E8A4216004AD1F1 /* LHWAlertTitleSubtitleTableViewCell.xib */; };
+		026453711E8A4216004AD1F1 /* LHWAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026453671E8A4216004AD1F1 /* LHWAlertViewController.swift */; };
+		026453721E8A4216004AD1F1 /* LHWAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 026453681E8A4216004AD1F1 /* LHWAlertViewController.xib */; };
+		026453731E8A4216004AD1F1 /* LHWAlertViewControllerActionSheetTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026453691E8A4216004AD1F1 /* LHWAlertViewControllerActionSheetTransition.swift */; };
+		026453741E8A4216004AD1F1 /* LHWAlertViewControllerPopupTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0264536A1E8A4216004AD1F1 /* LHWAlertViewControllerPopupTransition.swift */; };
+		026453751E8A4216004AD1F1 /* LHWPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0264536B1E8A4216004AD1F1 /* LHWPushButton.swift */; };
 		029ABCA21E8A2FE5000F18D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029ABCA11E8A2FE5000F18D9 /* AppDelegate.swift */; };
 		029ABCA41E8A2FE5000F18D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029ABCA31E8A2FE5000F18D9 /* ViewController.swift */; };
 		029ABCA71E8A2FE5000F18D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029ABCA51E8A2FE5000F18D9 /* Main.storyboard */; };
 		029ABCA91E8A2FE5000F18D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029ABCA81E8A2FE5000F18D9 /* Assets.xcassets */; };
 		029ABCAC1E8A2FE5000F18D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029ABCAA1E8A2FE5000F18D9 /* LaunchScreen.storyboard */; };
-		029ABCB51E8A3073000F18D9 /* LHWAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029ABCB41E8A3073000F18D9 /* LHWAlertViewController.swift */; };
-		029ABCB71E8A320E000F18D9 /* LHWAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029ABCB61E8A320E000F18D9 /* LHWAlertViewController.xib */; };
-		029ABCB91E8A3266000F18D9 /* LHWAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029ABCB81E8A3266000F18D9 /* LHWAlertAction.swift */; };
-		029ABCBB1E8A32EC000F18D9 /* LHWPushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029ABCBA1E8A32EC000F18D9 /* LHWPushButton.swift */; };
-		029ABCBD1E8A3541000F18D9 /* LHWAlertViewControllerPopupTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029ABCBC1E8A3541000F18D9 /* LHWAlertViewControllerPopupTransition.swift */; };
-		029ABCBF1E8A35E2000F18D9 /* LHWAlertViewControllerActionSheetTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029ABCBE1E8A35E2000F18D9 /* LHWAlertViewControllerActionSheetTransition.swift */; };
-		029ABCC11E8A36A1000F18D9 /* LHWAlertActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029ABCC01E8A36A1000F18D9 /* LHWAlertActionTableViewCell.swift */; };
-		029ABCC31E8A36B0000F18D9 /* LHWAlertTitleSubtitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029ABCC21E8A36B0000F18D9 /* LHWAlertTitleSubtitleTableViewCell.swift */; };
-		029ABCC61E8A36C1000F18D9 /* LHWAlertActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029ABCC41E8A36C1000F18D9 /* LHWAlertActionTableViewCell.xib */; };
-		029ABCC71E8A36C1000F18D9 /* LHWAlertTitleSubtitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029ABCC51E8A36C1000F18D9 /* LHWAlertTitleSubtitleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		026453621E8A4216004AD1F1 /* LHWAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertAction.swift; sourceTree = "<group>"; };
+		026453631E8A4216004AD1F1 /* LHWAlertActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertActionTableViewCell.swift; sourceTree = "<group>"; };
+		026453641E8A4216004AD1F1 /* LHWAlertActionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHWAlertActionTableViewCell.xib; sourceTree = "<group>"; };
+		026453651E8A4216004AD1F1 /* LHWAlertTitleSubtitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertTitleSubtitleTableViewCell.swift; sourceTree = "<group>"; };
+		026453661E8A4216004AD1F1 /* LHWAlertTitleSubtitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHWAlertTitleSubtitleTableViewCell.xib; sourceTree = "<group>"; };
+		026453671E8A4216004AD1F1 /* LHWAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertViewController.swift; sourceTree = "<group>"; };
+		026453681E8A4216004AD1F1 /* LHWAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHWAlertViewController.xib; sourceTree = "<group>"; };
+		026453691E8A4216004AD1F1 /* LHWAlertViewControllerActionSheetTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertViewControllerActionSheetTransition.swift; sourceTree = "<group>"; };
+		0264536A1E8A4216004AD1F1 /* LHWAlertViewControllerPopupTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertViewControllerPopupTransition.swift; sourceTree = "<group>"; };
+		0264536B1E8A4216004AD1F1 /* LHWPushButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWPushButton.swift; sourceTree = "<group>"; };
 		029ABC9E1E8A2FE5000F18D9 /* LHWAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHWAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029ABCA11E8A2FE5000F18D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		029ABCA31E8A2FE5000F18D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,16 +42,6 @@
 		029ABCA81E8A2FE5000F18D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		029ABCAB1E8A2FE5000F18D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		029ABCAD1E8A2FE5000F18D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		029ABCB41E8A3073000F18D9 /* LHWAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertViewController.swift; sourceTree = "<group>"; };
-		029ABCB61E8A320E000F18D9 /* LHWAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHWAlertViewController.xib; sourceTree = "<group>"; };
-		029ABCB81E8A3266000F18D9 /* LHWAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertAction.swift; sourceTree = "<group>"; };
-		029ABCBA1E8A32EC000F18D9 /* LHWPushButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWPushButton.swift; sourceTree = "<group>"; };
-		029ABCBC1E8A3541000F18D9 /* LHWAlertViewControllerPopupTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertViewControllerPopupTransition.swift; sourceTree = "<group>"; };
-		029ABCBE1E8A35E2000F18D9 /* LHWAlertViewControllerActionSheetTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertViewControllerActionSheetTransition.swift; sourceTree = "<group>"; };
-		029ABCC01E8A36A1000F18D9 /* LHWAlertActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertActionTableViewCell.swift; sourceTree = "<group>"; };
-		029ABCC21E8A36B0000F18D9 /* LHWAlertTitleSubtitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHWAlertTitleSubtitleTableViewCell.swift; sourceTree = "<group>"; };
-		029ABCC41E8A36C1000F18D9 /* LHWAlertActionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHWAlertActionTableViewCell.xib; sourceTree = "<group>"; };
-		029ABCC51E8A36C1000F18D9 /* LHWAlertTitleSubtitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHWAlertTitleSubtitleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +55,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		026453611E8A4216004AD1F1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				026453621E8A4216004AD1F1 /* LHWAlertAction.swift */,
+				026453631E8A4216004AD1F1 /* LHWAlertActionTableViewCell.swift */,
+				026453641E8A4216004AD1F1 /* LHWAlertActionTableViewCell.xib */,
+				026453651E8A4216004AD1F1 /* LHWAlertTitleSubtitleTableViewCell.swift */,
+				026453661E8A4216004AD1F1 /* LHWAlertTitleSubtitleTableViewCell.xib */,
+				026453671E8A4216004AD1F1 /* LHWAlertViewController.swift */,
+				026453681E8A4216004AD1F1 /* LHWAlertViewController.xib */,
+				026453691E8A4216004AD1F1 /* LHWAlertViewControllerActionSheetTransition.swift */,
+				0264536A1E8A4216004AD1F1 /* LHWAlertViewControllerPopupTransition.swift */,
+				0264536B1E8A4216004AD1F1 /* LHWPushButton.swift */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
 		029ABC951E8A2FE5000F18D9 = {
 			isa = PBXGroup;
 			children = (
-				029ABCB31E8A2FF4000F18D9 /* Sources */,
+				026453611E8A4216004AD1F1 /* Sources */,
 				029ABCA01E8A2FE5000F18D9 /* LHWAlertViewController */,
 				029ABC9F1E8A2FE5000F18D9 /* Products */,
 			);
@@ -83,23 +101,6 @@
 				029ABCAD1E8A2FE5000F18D9 /* Info.plist */,
 			);
 			path = LHWAlertViewController;
-			sourceTree = "<group>";
-		};
-		029ABCB31E8A2FF4000F18D9 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				029ABCB41E8A3073000F18D9 /* LHWAlertViewController.swift */,
-				029ABCB61E8A320E000F18D9 /* LHWAlertViewController.xib */,
-				029ABCB81E8A3266000F18D9 /* LHWAlertAction.swift */,
-				029ABCBA1E8A32EC000F18D9 /* LHWPushButton.swift */,
-				029ABCBC1E8A3541000F18D9 /* LHWAlertViewControllerPopupTransition.swift */,
-				029ABCBE1E8A35E2000F18D9 /* LHWAlertViewControllerActionSheetTransition.swift */,
-				029ABCC01E8A36A1000F18D9 /* LHWAlertActionTableViewCell.swift */,
-				029ABCC21E8A36B0000F18D9 /* LHWAlertTitleSubtitleTableViewCell.swift */,
-				029ABCC41E8A36C1000F18D9 /* LHWAlertActionTableViewCell.xib */,
-				029ABCC51E8A36C1000F18D9 /* LHWAlertTitleSubtitleTableViewCell.xib */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,12 +163,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029ABCC61E8A36C1000F18D9 /* LHWAlertActionTableViewCell.xib in Resources */,
+				0264536E1E8A4216004AD1F1 /* LHWAlertActionTableViewCell.xib in Resources */,
 				029ABCAC1E8A2FE5000F18D9 /* LaunchScreen.storyboard in Resources */,
-				029ABCC71E8A36C1000F18D9 /* LHWAlertTitleSubtitleTableViewCell.xib in Resources */,
+				026453701E8A4216004AD1F1 /* LHWAlertTitleSubtitleTableViewCell.xib in Resources */,
 				029ABCA91E8A2FE5000F18D9 /* Assets.xcassets in Resources */,
-				029ABCB71E8A320E000F18D9 /* LHWAlertViewController.xib in Resources */,
 				029ABCA71E8A2FE5000F18D9 /* Main.storyboard in Resources */,
+				026453721E8A4216004AD1F1 /* LHWAlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,15 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029ABCC11E8A36A1000F18D9 /* LHWAlertActionTableViewCell.swift in Sources */,
-				029ABCBB1E8A32EC000F18D9 /* LHWPushButton.swift in Sources */,
-				029ABCBD1E8A3541000F18D9 /* LHWAlertViewControllerPopupTransition.swift in Sources */,
-				029ABCB91E8A3266000F18D9 /* LHWAlertAction.swift in Sources */,
-				029ABCB51E8A3073000F18D9 /* LHWAlertViewController.swift in Sources */,
+				0264536D1E8A4216004AD1F1 /* LHWAlertActionTableViewCell.swift in Sources */,
+				0264536F1E8A4216004AD1F1 /* LHWAlertTitleSubtitleTableViewCell.swift in Sources */,
+				0264536C1E8A4216004AD1F1 /* LHWAlertAction.swift in Sources */,
+				026453711E8A4216004AD1F1 /* LHWAlertViewController.swift in Sources */,
+				026453751E8A4216004AD1F1 /* LHWPushButton.swift in Sources */,
 				029ABCA41E8A2FE5000F18D9 /* ViewController.swift in Sources */,
-				029ABCC31E8A36B0000F18D9 /* LHWAlertTitleSubtitleTableViewCell.swift in Sources */,
-				029ABCBF1E8A35E2000F18D9 /* LHWAlertViewControllerActionSheetTransition.swift in Sources */,
+				026453731E8A4216004AD1F1 /* LHWAlertViewControllerActionSheetTransition.swift in Sources */,
 				029ABCA21E8A2FE5000F18D9 /* AppDelegate.swift in Sources */,
+				026453741E8A4216004AD1F1 /* LHWAlertViewControllerPopupTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +349,7 @@
 				029ABCB21E8A2FE5000F18D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
