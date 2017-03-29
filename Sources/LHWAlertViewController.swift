@@ -332,7 +332,9 @@ public class LHWAlertViewController: UIViewController {
     
     internal func updateUI(withAnimation shouldAnimate: Bool) {
         // Refresh Preferred Style
-        preferredStyle = (preferredStyle)
+        let tempPreferredStyle = preferredStyle
+        preferredStyle = tempPreferredStyle
+        
         // Update Table Header View
         setHeaderView(headerView, shouldUpdateContainerFrame: false, withAnimation: false)
         // Update Table Footer View
@@ -340,7 +342,9 @@ public class LHWAlertViewController: UIViewController {
         // Reload Table Content
         tableView?.reloadData()
         // Update Background
-        backgroundStyle = (backgroundStyle)
+        let tempBackgroundStyle = backgroundStyle
+        backgroundStyle = tempBackgroundStyle
+        
         // Update Container View Frame
         updateContainerViewFrame(withAnimation: shouldAnimate)
     }
