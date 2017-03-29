@@ -16,6 +16,7 @@
                 <outlet property="containerView" destination="oE9-Fa-uD3" id="U7b-iR-Wvb"/>
                 <outlet property="containerViewBottomConstraint" destination="VQq-aN-B81" id="5Vk-q7-S71"/>
                 <outlet property="containerViewCenterYConstraint" destination="H8R-Gq-Eee" id="AJR-2d-FW9"/>
+                <outlet property="containerViewWC" destination="Vkt-mm-YoB" id="L9h-A9-xXA"/>
                 <outlet property="mainViewBottomConstraint" destination="2uV-Tk-MV8" id="Dhk-hF-sdT"/>
                 <outlet property="tableView" destination="bKB-GW-3Ko" id="hy8-Ui-XRf"/>
                 <outlet property="tableViewHeightConstraint" destination="mgv-7M-W5c" id="z4I-u7-gtf"/>
@@ -39,10 +40,10 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <subviews>
                         <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oE9-Fa-uD3">
-                            <rect key="frame" x="39" y="234" width="298.5" height="200"/>
+                            <rect key="frame" x="19" y="234" width="337.5" height="200"/>
                             <subviews>
                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bKB-GW-3Ko">
-                                    <rect key="frame" x="0.0" y="0.0" width="298.5" height="200"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="337.5" height="200"/>
                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" priority="900" constant="200" id="mgv-7M-W5c"/>
@@ -57,7 +58,6 @@
                             <constraints>
                                 <constraint firstItem="bKB-GW-3Ko" firstAttribute="top" secondItem="oE9-Fa-uD3" secondAttribute="top" id="Ol2-pp-MKV"/>
                                 <constraint firstAttribute="trailing" secondItem="bKB-GW-3Ko" secondAttribute="trailing" id="Qye-xz-rK3"/>
-                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="420" id="UUs-YE-wor"/>
                                 <constraint firstAttribute="bottom" secondItem="bKB-GW-3Ko" secondAttribute="bottom" id="dIY-S9-Ylm"/>
                                 <constraint firstItem="bKB-GW-3Ko" firstAttribute="leading" secondItem="oE9-Fa-uD3" secondAttribute="leading" id="kLO-AL-TvV"/>
                             </constraints>
@@ -66,13 +66,12 @@
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <gestureRecognizers/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="oE9-Fa-uD3" secondAttribute="trailing" multiplier="1:0.9" priority="750" id="AbK-jx-TFx"/>
                         <constraint firstItem="oE9-Fa-uD3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="H8R-Gq-Eee"/>
                         <constraint firstItem="oE9-Fa-uD3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="QMk-0Z-hhJ"/>
                         <constraint firstAttribute="bottom" secondItem="oE9-Fa-uD3" secondAttribute="bottom" constant="10" id="VQq-aN-B81"/>
+                        <constraint firstItem="oE9-Fa-uD3" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.9" id="Vkt-mm-YoB"/>
                         <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oE9-Fa-uD3" secondAttribute="bottom" priority="990" constant="20" id="WSN-es-JQA"/>
                         <constraint firstItem="oE9-Fa-uD3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eKC-zE-i5f"/>
-                        <constraint firstItem="oE9-Fa-uD3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" multiplier="1:0.9" priority="750" id="lA4-Nq-cdD"/>
                     </constraints>
                     <variation key="default">
                         <mask key="constraints">

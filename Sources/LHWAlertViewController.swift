@@ -56,6 +56,8 @@ public class LHWAlertViewController: UIViewController {
     
     // MARK: - Variables
     
+    @IBOutlet weak var containerViewWC: NSLayoutConstraint!
+    public var customAlertViewWidth: CGFloat = 0
     public internal(set) var textAlignment = NSTextAlignment(rawValue: 0)
     public internal(set) var preferredStyle = LHWAlertControllerStyle(rawValue: 0) {
         didSet  {
@@ -182,6 +184,7 @@ public class LHWAlertViewController: UIViewController {
                                       message: String?,
                                       textAlignment: NSTextAlignment,
                                       preferredStyle: LHWAlertControllerStyle,
+                                      customWidth: CGFloat = 0,
                                       headerView: UIView?,
                                       footerView: UIView?,
                                       didDismissAlertHandler dismiss: LHWAlertViewControllerDismissBlock?) -> LHWAlertViewController {
@@ -199,6 +202,7 @@ public class LHWAlertViewController: UIViewController {
         alert.titleString = title
         alert.messageString = message
         alert.textAlignment = textAlignment
+        alert.customAlertViewWidth = customWidth
         alert.setHeaderView(headerView, shouldUpdateContainerFrame: false, withAnimation: false)
         alert.setFooterView(footerView, shouldUpdateContainerFrame: false, withAnimation: false)
         alert.dismissHandler = dismiss
@@ -242,7 +246,10 @@ public class LHWAlertViewController: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // Set custom width
+        if customAlertViewWidth > 0 {
+            containerViewWC.constant = customAlertViewWidth - UIScreen.main.bounds.size.width
+        }
         // Load Variables
         loadVariables()
         

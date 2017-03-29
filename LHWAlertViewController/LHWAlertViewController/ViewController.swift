@@ -30,6 +30,10 @@ class ViewController: UIViewController {
     }
 
     func showAlert(_ sender: UIButton) {
+//        let alert = UIAlertController(title: "Title", message: "Hello World", preferredStyle: .alert)
+//        present(alert, animated: true, completion: nil)
+        
+        
         let alert = LHWAlertViewController.alertController(
             title: "Title",
             message: "Message",
@@ -46,7 +50,7 @@ class ViewController: UIViewController {
         alert.shouldDismissOnBackgroundTap = true
         let action = LHWAlertAction.action(title: "OK", style: .cancel, alignment: .justified, backgroundColor: nil, textColor: nil, handler: nil)
         alert.addAction(action)
-        self.present(alert, animated: true, completion: nil)
+        present(alert, animated: true, completion: nil)
     }
 
 }
