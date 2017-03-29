@@ -101,7 +101,7 @@ public class LHWAlertActionTableViewCell: UITableViewCell {
                 
                 switch action.style {
                     
-                case .Cancel:
+                case .cancel:
                     if actionBackgroundColor == nil {
                         actionBackgroundColor = LHWAlertActionTableViewCell.LHWCancelActionColor()
                     }
@@ -113,7 +113,7 @@ public class LHWAlertActionTableViewCell: UITableViewCell {
                     actionButton?.layer.borderColor = actionBackgroundColor?.cgColor
                     actionButton?.layer.borderWidth = 1.0
                     
-                case .Destructive:
+                case .destructive:
                     if actionBackgroundColor == nil {
                         actionBackgroundColor = LHWAlertActionTableViewCell.LHWDestructiveActionColor()
                     }

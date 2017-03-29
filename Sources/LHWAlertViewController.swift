@@ -265,12 +265,12 @@ public class LHWAlertViewController: UIViewController {
         if let action = action {
             
             // Check For Cancel Action. Every Alert must have maximum 1 Cancel Action.
-            if action.style == .Cancel {
+            if action.style == .cancel {
                 for existingAction: LHWAlertAction in actionList {
                     // This line of code added to just supress the warning (Unused Variable) at build time
                     //unused(existingAction)
                     // It means this alert already contains a Cancel action. Throw an Assert so developer understands the reason.
-                    assert(existingAction.style != .Cancel, "ERROR : LHWAlertViewController can only have one action with a style of LHWAlertActionStyle.Cancel")
+                    assert(existingAction.style != .cancel, "ERROR : LHWAlertViewController can only have one action with a style of LHWAlertActionStyle.Cancel")
                 }
             }
             // Add Action Into List
@@ -387,7 +387,7 @@ public class LHWAlertViewController: UIViewController {
             dismissAlert(withAnimation: true, isBackgroundTapped: true, completion: {() -> Void in
                 // Simulate Cancel Button
                 for existingAction: LHWAlertAction in self.actionList {
-                    if existingAction.style == .Cancel {
+                    if existingAction.style == .cancel {
                         // Call Action Handler
                         if let actionHandler = existingAction.handler {
                             actionHandler(existingAction)

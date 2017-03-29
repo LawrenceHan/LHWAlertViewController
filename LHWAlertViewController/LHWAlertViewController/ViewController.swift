@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         
         alert.backgroundStyle = .plain
         alert.shouldDismissOnBackgroundTap = true
-        let action = LHWAlertAction.action(title: "OK", style: .Default, alignment: .justified, backgroundColor: nil, textColor: nil, handler: nil)
+        let action = LHWAlertAction.action(title: "OK", style: .cancel, alignment: .justified, backgroundColor: nil, textColor: nil, handler: nil)
         alert.addAction(action)
         self.present(alert, animated: true, completion: nil)
     }

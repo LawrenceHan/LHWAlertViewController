@@ -34,15 +34,15 @@
 
 import UIKit
 
-public class LHWAlertAction: NSObject, NSCopying {
+public class LHWAlertAction {
     
     // MARK: - Declarations
     public typealias LHWAlertActionHandlerBlock = (_ action: LHWAlertAction) -> Void
     
     public enum LHWAlertActionStyle: Int {
-        case Default = 0
-        case Cancel
-        case Destructive
+        case defaultStyle = 0
+        case cancel
+        case destructive
     }
     
     public enum LHWAlertActionAlignment: Int {
@@ -54,7 +54,7 @@ public class LHWAlertAction: NSObject, NSCopying {
     
     // MARK: - Variables
     public var title: String?
-    public var style: LHWAlertActionStyle = .Default
+    public var style: LHWAlertActionStyle = .defaultStyle
     public var alignment: LHWAlertActionAlignment = .justified
     public var backgroundColor: UIColor?
     public var textColor: UIColor?
@@ -75,18 +75,6 @@ public class LHWAlertAction: NSObject, NSCopying {
         action.handler = handler
         
         return action
-    }
-    
-    
-    // MARK: - NSCopying
-    public func copy(with zone: NSZone? = nil) -> Any {
-        let copy = LHWAlertAction.action(title: title,
-                                        style: style,
-                                        alignment: alignment,
-                                        backgroundColor: backgroundColor,
-                                        textColor: textColor,
-                                        handler: handler)
-        return copy
     }
 }
 
