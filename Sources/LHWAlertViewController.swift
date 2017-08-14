@@ -34,7 +34,7 @@
 
 import UIKit
 
-public class LHWAlertViewController: UIViewController {
+open class LHWAlertViewController: UIViewController {
     
     // MARK: - Declarations
     
@@ -50,7 +50,7 @@ public class LHWAlertViewController: UIViewController {
         case blur
     }
     
-    public static func LHWAlertBackgroundColor() -> UIColor {
+    open static func LHWAlertBackgroundColor() -> UIColor {
         return UIColor(white: 0.0, alpha: 0.7)
     }
     
@@ -244,7 +244,7 @@ public class LHWAlertViewController: UIViewController {
         view.addGestureRecognizer(self.tapGesture)
     }
     
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         // Set custom width
         if customAlertViewWidth > 0 {
@@ -257,7 +257,7 @@ public class LHWAlertViewController: UIViewController {
         loadDisplayContent()
     }
     
-    public override func viewWillAppear(_ animated: Bool) {
+    open override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Update UI
@@ -468,7 +468,7 @@ public class LHWAlertViewController: UIViewController {
     
     // MARK: - View Rotation / Size Change Method
     
-    public override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+    open override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
         // Code here will execute before the rotation begins.
         // Equivalent to placing it in the deprecated method -[willRotateToInterfaceOrientation:duration:]
@@ -486,7 +486,7 @@ public class LHWAlertViewController: UIViewController {
     
     // MARK: - Key Value Observers
     
-    public override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    open override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if (keyPath == "contentSize") {
             // Update Container View Frame Without Animation
             updateContainerViewFrame(withAnimation: false)
